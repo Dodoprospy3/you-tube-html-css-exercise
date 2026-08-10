@@ -10,16 +10,18 @@
 }
 
 .left-section {
-  background-color: lightblue;
-  width: 150px;
+  align-items: center;
+  display: flex;
 }
 
 .hamburger-menu {
-  height: 30px;
+  height: 25px;
+  margin-left: 24px;
+  margin-right: 20px;
 }
 
 .youtube-logo {
-  height: 25px;
+  height: 22px;
 }
 
 .middle-section {
@@ -28,6 +30,19 @@
   margin-left: 69px;
   margin-right: 35px;
   max-width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.search-btn {
+  height: 40px;
+  width: 60px;
+}
+
+.voice-search-btn {
+  height: 40px;
+  width: 40px;
 }
 
 .right-section {
