@@ -1,3 +1,3 @@
 # YouTube HTML/CSS Exercise
 
-A YouTube-inspired webpage recreated using HTML and CSS.
+A project I'm using to practice and improve my HTML and CSS skills.
