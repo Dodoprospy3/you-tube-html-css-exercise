@@ -12,6 +12,7 @@
 .left-section {
   align-items: center;
   display: flex;
+  cursor: pointer;
 }
 
 .hamburger-menu {
