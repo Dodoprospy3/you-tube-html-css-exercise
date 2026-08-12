@@ -53,6 +53,7 @@
   border-color: rgb(171, 171, 171);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.06);
+  width: 0;
 }
 
 .search-bar::placeholder {
@@ -95,6 +96,7 @@
   align-items: center;
   justify-content: space-between;
   margin-right: 21px;
+  flex-shrink: 0;
 }
 
 .upload-icon {
