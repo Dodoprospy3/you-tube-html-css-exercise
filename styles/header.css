@@ -47,9 +47,11 @@
     border-width: 1px;
     border-style: solid;
     border-color: rgb(171, 171, 171);
-    margin-left: -2px;
+    margin-left: -18px;
     margin-right: 10px;
     cursor: pointer;
+    border-top-right-radius: 29px;
+    border-bottom-right-radius: 29px;
 }
 
 .search-bar {
@@ -61,7 +63,7 @@
     border-width: 1px;
     border-style: solid;
     border-color: rgb(171, 171, 171);
-    border-radius: 2px;
+    border-radius: 29px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.06);
     width: 0;
 }
