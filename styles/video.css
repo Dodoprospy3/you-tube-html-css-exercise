@@ -1,11 +1,8 @@
 .thumbnail {
     width: 100%;
     /*    transition: transform 0.2s;*/
+    border-radius: 11px;
 }
-
-/*.thumbnail:hover {
-    transform: scale(1.2);
-}*/
 
 .vid-title {
     width: 255px;
@@ -25,6 +22,21 @@
 
 .vid-preview {
     border-radius: 1px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    transition: background-color 0.2s, border-radius 0.3s;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.vid-preview:hover {
+    background-color: rgb(247, 232, 250);
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.vid-preview:active {
+    filter: brightness(0.9);
 }
 
 .video-info-grid {
