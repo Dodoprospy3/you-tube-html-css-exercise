@@ -64,6 +64,14 @@
     padding-bottom: 4px;
     padding-right: 8px;
     padding-left: 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+}
+
+.search-btn:hover .tooltip {
+    opacity: 1;
 }
 
 .search-bar {
