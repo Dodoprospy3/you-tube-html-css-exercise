@@ -68,6 +68,7 @@
     font-size: 12px;
     bottom: -30px;
     opacity: 0;
+    transform: opacity 0.15s;
 }
 
 .search-btn:hover .tooltip {
