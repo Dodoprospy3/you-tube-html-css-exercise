@@ -52,6 +52,12 @@
     cursor: pointer;
     border-top-right-radius: 29px;
     border-bottom-right-radius: 29px;
+
+    position: relative;
+}
+
+.search-btn .tooltip {
+    position: absolute;
 }
 
 .search-bar {
