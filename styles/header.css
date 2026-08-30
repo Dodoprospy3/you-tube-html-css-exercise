@@ -57,6 +57,7 @@
 }
 
 .search-btn .tooltip,
+.upload-icon-container .tooltip,
 .voice-search-btn .tooltip {
     position: absolute;
     background-color: gray;
@@ -72,9 +73,12 @@
     transition: opacity 0.15s;
     pointer-events: none;
     white-space: nowrap;
+    font-family: Roboto, Arial;
 }
 
 .search-btn,
+.upload-icon-container,
+.app-icons-container,
 .voice-search-btn {
     position: relative;
     justify-content: center;
@@ -83,8 +87,9 @@
 }
 
 .search-btn:hover .tooltip,
+.upload-icon-container:hover .tooltip,
 .voice-search-btn:hover .tooltip {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .search-bar {
