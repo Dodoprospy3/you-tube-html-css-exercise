@@ -57,6 +57,8 @@
 }
 
 .search-btn .tooltip,
+.notifications-icon-container .tooltip,
+.app-icons-container .tooltip,
 .upload-icon-container .tooltip,
 .voice-search-btn .tooltip {
     position: absolute;
@@ -78,6 +80,7 @@
 
 .search-btn,
 .upload-icon-container,
+.notifications-icon-container,
 .app-icons-container,
 .voice-search-btn {
     position: relative;
@@ -87,7 +90,9 @@
 }
 
 .search-btn:hover .tooltip,
+.notifications-icon-container:hover .tooltip,
 .upload-icon-container:hover .tooltip,
+.app-icons-container:hover .tooltip,
 .voice-search-btn:hover .tooltip {
     opacity: 0.8;
 }
