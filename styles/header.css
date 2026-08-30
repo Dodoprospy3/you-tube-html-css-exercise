@@ -56,7 +56,8 @@
     position: relative;
 }
 
-.search-btn .tooltip {
+.search-btn .tooltip,
+.voice-search-btn .tooltip {
     position: absolute;
     background-color: gray;
     color: white;
@@ -70,9 +71,19 @@
     opacity: 0;
     transition: opacity 0.15s;
     pointer-events: none;
+    white-space: nowrap;
 }
 
-.search-btn:hover .tooltip {
+.search-btn,
+.voice-search-btn {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.search-btn:hover .tooltip,
+.voice-search-btn:hover .tooltip {
     opacity: 1;
 }
 
@@ -96,8 +107,7 @@
 }
 
 .search-icon {
-    height: 26px;
-    margin-top: 4px;
+    height: 25px;
 }
 
 .voice-search-btn {
@@ -121,7 +131,6 @@
 
 .voice-search-icon {
     height: 26px;
-    margin-top: 4px;
 }
 
 .right-section {
